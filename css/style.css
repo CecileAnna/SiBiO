@@ -1,0 +1,378 @@
+/* resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* center all content on page */
+.center-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70vw;
+    text-align: center;
+
+}
+
+/* all img on the pages, all infografics */
+img {
+    max-width: 90%;
+    max-height: auto;
+}
+
+/* brand text makes brand name into brand font*/
+.brand-text {
+    font-family: 'Pacifico';
+    color: #265994;
+    text-shadow: 1px 1px 2px #5194E0;
+    font-size: 1em;
+    text-transform: none;
+}
+
+/* welcome animation */
+.welcome_animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 125vh;
+    background-image: linear-gradient(
+        180deg,
+        #265994 0%,
+        #5194E0 50%,
+        white 100%
+    );
+    position: relative;
+    overflow: hidden;
+}
+
+.welcome_tent {
+    position: absolute;
+
+}
+
+.welcome_animation-scroll {
+    position: absolute;
+    padding-top: 25vh;
+}
+
+.welcome_scroll-string {
+    font-size: 8vh;
+    color: #5194E0;
+    font-family: 'Pacifico';
+    text-shadow: 3px 3px 2px #265994;
+    /* text-transform: uppercase; */
+    font-weight: 100;
+    /* padding: 20px 50px 20px 20px; */
+}
+
+.welcome_animation-scroll-icon {
+    font-size: 2.7vh;
+    color: #5194E0;
+    text-shadow: 3px 3px 2px #265994;
+
+}
+
+
+/* header */
+.header_logo {
+    position: relative;
+    background-image: url("../img/sibio_logo.png");
+    min-height: 700px;
+    max-width: 650px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header_logo-text {
+    font-family: 'Pacifico', cursive;
+    color: #265994;
+    text-shadow: 1px 1px 2px #5194E0;
+    font-size: 6em;
+    position: absolute;
+    bottom: 1vh;
+    line-height: 0.55em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header_logo-subtitle {
+    font-family: 'Pacifico', cursive;
+    color: #265994;
+    text-shadow: 0.2px 0.2px 1px #5194E0;
+    font-size: 0.5em; 
+    font-style: italic; 
+    font-weight: lighter; 
+}
+
+    /* header navigation */
+    .header_nav {
+        display: flex;
+        justify-content: center;
+        /* padding: 3em; */
+        border-top: 2px solid #E04E41;
+        border-bottom: 2px solid #E04E41;
+        margin-bottom: 5em;
+        margin-top: 5em;
+    }
+
+    .header_nav_link {
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-size: 1.6em;
+        text-transform: uppercase;
+        color: #E04E41;
+        text-shadow: 1px 1px 2px  #6b251f;
+        justify-content: space-around;
+        padding: 2em;
+    }
+
+    .header_nav_link:hover {
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-size: 1.58em;
+        text-transform: uppercase;
+        color:#5194E0;
+        text-shadow: 1px 1px 2px  #265994;
+        justify-content: space-around;
+        padding: 2em;
+    }
+
+    /* dropdown menu */
+    .header__dropdown--inactive {
+        display: none !important;
+    }
+
+    .header__dropdown--active {
+        display: block;
+        position: absolute;
+        right: 40px;
+        top: 120px;
+    }
+
+    .header__menu-icon {
+        padding: 30px 50px 30px 30px;
+        font-size: 2.7vh;
+        color: #E04E41;
+    }
+
+/* welcome section */
+.main_welcome_h2-text {
+    font-family: 'Roboto';
+    color: #265994;
+    text-shadow: 1px 1px 2px #5194E0;
+    font-size: 4em;
+    text-transform: uppercase;
+    padding-top: 3em;
+}
+
+.main_welcome_p-text {
+    font-family: 'Roboto', sans-serif;
+    color: #265994;
+    text-shadow: 0.2px 0.2px 0.5px #5194E0;
+    font-size: 2em;
+    padding: 2em;
+    letter-spacing: 0.04em;
+    line-height: 1.5em;
+    word-spacing: 0.09em;
+}
+
+.main_welcome-subtitle {
+    font-family: 'Pacifico', cursive;
+    color: #265994;
+    text-shadow: 0.2px 0.2px 1px #5194E0;
+    font-size: 1.3em; 
+    font-style: italic; 
+    font-weight: 100;
+    padding-bottom: 40px;
+    line-height: 1.2em;
+    word-spacing: 0.1em;
+    letter-spacing: 0.05em; 
+}
+
+/* baby-bio section */
+.main_baby-bio_h2-text {
+    font-family: 'Roboto';
+    color: #265994;
+    text-shadow: 1px 1px 2px #5194E0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-top: 3em;
+}
+.main_baby-bio-brand-text {
+    font-family: 'Pacifico';
+    color: #265994;
+    text-shadow: 1px 1px 2px #5194E0;
+    font-size: 1em;
+    text-transform: none;
+}
+
+.main_baby-bio_p-text {
+    font-family: 'Roboto', sans-serif;
+    color: #265994;
+    text-shadow: 0.2px 0.2px 0.5px #5194E0;
+    font-size: 2em;
+    padding: 3em;
+    letter-spacing: 0.04em;
+    line-height: 1.5em;
+    word-spacing: 0.09em;   
+}
+
+/* in About-html - safety section     */
+.main_safety_h2-text {
+    font-family: 'Roboto';
+    color: #265994;
+    text-shadow: 1px 1px 2px #5194E0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding-top: 3em;
+}
+
+.main_safety-brand-text {
+    font-family: 'Pacifico';
+    color: #265994;
+    text-shadow: 1px 1px 2px #5194E0;
+    font-size: 1em;
+    text-transform: none;
+}
+
+.main_safety_p-text {
+    font-family: 'Roboto', sans-serif;
+    color: #265994;
+    text-shadow: 0.2px 0.2px 0.5px #5194E0;
+    font-size: 2em;
+    padding: 3em;
+    letter-spacing: 0.04em;
+    line-height: 1.5em;
+    word-spacing: 0.09em;  
+}
+
+/* in booking-html - booking section     */
+.main_booking_h2-text {
+    font-family: 'Roboto';
+    color: #265994;
+    text-shadow: 1px 1px 2px #5194E0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding-top: 3em;
+}
+.main_booking-brand-text {
+    font-family: 'Pacifico';
+    color: #265994;
+    text-shadow: 1px 1px 2px #5194E0;
+    font-size: 1em;
+    text-transform: none;
+}
+
+.main_booking_p-text {
+    font-family: 'Roboto', sans-serif;
+    color: #265994;
+    text-shadow: 0.2px 0.2px 0.5px #5194E0;
+    font-size: 2em;
+    padding: 1em;
+    letter-spacing: 0.04em;
+    line-height: 1.5em;
+    word-spacing: 0.09em;    
+}
+
+.main_booking_form {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #E04E41;
+    border-radius: 30px;
+}
+
+.main_booking_input-duo {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-shadow: 0.2px 0.2px 1px #0219338e;
+    font-size: 1.5em;
+    padding: 2em;
+       
+}
+
+.main_booking_input-field {
+    border: 2px solid #265994; 
+}
+
+.main_booking_input-submit {
+    border: 2px solid #265994;
+    background-color: #5194E0;
+    color: white;
+    height: 2em;
+    width: 6em;
+    text-transform: uppercase;    
+}
+
+
+@media only screen and (max-width: 411px) {
+    /* header */
+    .header_logo {
+        min-height: 300px;
+        max-width: 500px;
+    }
+
+    .header__menu-icon {
+        padding: 30px;
+        font-size: 4vh;
+    }
+
+    .header_nav {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5em;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header_logo-text {
+        font-size: 15vw;
+        bottom: 1vh;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 0.55em;
+    }
+    
+    .header_logo-subtitle {
+        font-size: 4vw; 
+    }
+    
+    .header_nav_link {
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-size: 1.2em;
+        text-transform: uppercase;
+        color: #E04E41;
+        text-shadow: 1px 1px 2px  #6b251f;
+        padding: 0 0.5em 0 0.5em;
+        line-height: 2em;
+    }
+
+    /* mains texts sizing*/
+    .main_baby-bio_p-text, .main_welcome_p-text, .main_about_p-text, .main_safety_p-text, .main_booking_p-text {
+        font-size: 5.5vw;
+        /* min-width: 90vw; */
+    }
+    
+    .main_baby-bio_h2-text, .main_welcome_h2-text, .main_safety_h2-text, .main_about_h2-text, .main_booking_h2-text {
+        font-size: 6vw;
+    }
+
+    .center-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90vw;
+        text-align: center;
+    }
+
+
+}

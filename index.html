@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiBiO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.js"
+    integrity="sha256-ZTEnMVwBY082yM/d9tFkglZux9pVgwfOAg6HD4reObU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+    integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    
+</head>
+<body>
+    
+        <section class="welcome_animation">
+            <img class="welcome_tent" src="img/sibio_tentBIG.png" alt="">
+            <div class="welcome_animation-scroll">
+                <h1 class="welcome_scroll-string">scroll</h1>
+                <i class="fas fa-angle-double-down welcome_animation-scroll-icon"></i>
+            </div>
+        </Section>
+
+    <div class="center-wrapper">
+
+        <header>
+            <div class="header_logo">
+                <h1 class="header_logo-text">SiBiO<br><span class="header_logo-subtitle">- sikre biograf oplevelser</span></h1>
+            </div>
+
+            <i id="menu-button" class="fas fa-chevron-circle-down header__menu-icon"></i>
+
+            <nav id="nav-show" class="header_nav header__dropdown--inactive">
+                <a class="header_nav_link" href="index.html">Hjem</a>
+                <a class="header_nav_link" href="html/about.html">Om os</a>
+                <a class="header_nav_link"href="html/booking.html">Bestilling</a>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="main_welcome-section">
+                <h2 class="main_welcome_h2-text">Velkommen til <span class="brand-text">SiBiO</span></h2>
+                <p class="main_welcome_p-text"><span class="main_welcome-subtitle">Vi arrangerer sikre biograf oplevelser for hele familien eller husholdningen.</span> <br><br> Visningerne foregår i store telte med personlige platforme (eller øer som vi kalder dem) til hver kundegruppe.</p>
+                <img src="img/sibio_family.png" alt="">
+                <p class="main_welcome_p-text">Der er god afstand mellem alle øerne og der er desuden en tilhørende afskærmet sti til hver ø, så man ikke krydser andre på vej ind og ud af teltet.</p>
+                <img src="img/sibio_safe_distance.png" alt="">
+            </section>
+            <section class="main_baby-bio-section">
+                <h2 class="main_baby-bio_h2-text">Hos <span class="brand-text">SiBiO</span> kan du tage de helt små & de helt grå sikkert med i biografen</h2>
+                <p class="main_baby-bio_p-text">I vores biograftelte kan forældre at tage deres spædbørn med i biografen uden bekymring.</p>
+                <img src="img/sibio_baby_bio.png" alt="">
+                <p class="main_safety_p-text">Vi specialiserer os i babybio såvel som seniorbio.</p>
+            </section>
+            
+        </main>
+
+    </div>
+
+    <script src="js/menu.js"></script>
+    <script src="js/welcomeAnimation.js"></script>
+</body>
+</html>
